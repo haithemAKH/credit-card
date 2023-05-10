@@ -30,7 +30,7 @@
 			border-radius: 3px;
 			cursor: pointer;
 			font-size: 16px;
-			margin: 0 5px;
+			margin: 150px 5px;
 			padding: 5px;
 		}
 		.quantity input {
@@ -65,13 +65,17 @@
 			text-align: center;
 			margin-bottom: 100px;
 		}
-		img{
-			width: 300px;;
-			 height:300px;
-				display: inline-block;
-				width: 30%; /* ou une autre valeur appropriée */
-				margin-right: 2%; /* pour ajouter un espace entre les images */
-			 padding: 5px;
+		img{ 
+			text-align: center;
+			width: 200px;;
+			 height:200px;
+				width: 100px; /* ou une autre valeur appropriée */
+			 padding: 20px;
 		}
+	h2{
+		display: inline-block;
+		text-align: center;
+		color:rgb(52, 167, 167) ;
+	}
 	
 	
