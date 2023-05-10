@@ -1,0 +1,77 @@
+        h3 ,h1 {
+            font-family: Arial, sans-serif;
+            color: rgb(52, 167, 167);
+            text-align: center;
+        }
+		body {
+			font-family: Arial, sans-serif;
+		}
+		table {
+			border-collapse: collapse;
+			margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+		}
+		table th, table td {
+			padding: 10px;
+			border: 1px solid #ccc;
+		}
+		table th {
+			text-align: left;
+			background-color: #7ccfe1;
+		}
+		.quantity {
+			display: flex;
+			align-items: center;
+		}
+		.quantity button {
+			background-color: #fff;
+			border: none;
+			border-radius: 3px;
+			cursor: pointer;
+			font-size: 16px;
+			margin: 0 5px;
+			padding: 5px;
+		}
+		.quantity input {
+			border: none;
+			border-radius: 3px;
+			font-size: 16px;
+			padding: 5px;
+			text-align: center;
+			width: 50px;
+		}
+		.delete button {
+			background-color: #fff;
+			border: none;
+			color: #f00;
+			cursor: pointer;
+			font-size: 16px;
+			margin-left: 10px;
+		}
+		.like button {
+			background-color: #fff;
+			border: none;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		.like button.liked {
+			color: #f00;
+		}
+		.total {
+            color:rgb(52, 167, 167) ;
+			font-size: 50px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 100px;
+		}
+		img{
+			width: 300px;;
+			 height:300px;
+				display: inline-block;
+				width: 30%; /* ou une autre valeur appropriée */
+				margin-right: 2%; /* pour ajouter un espace entre les images */
+			 padding: 5px;
+		}
+	
+	
